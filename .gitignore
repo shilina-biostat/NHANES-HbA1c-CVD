@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# NHANES project data
+data/*.xpt
+data/*.rds
+data/*.csv
