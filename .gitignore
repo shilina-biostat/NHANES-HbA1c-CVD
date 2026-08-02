@@ -50,7 +50,6 @@ rsconnect/
 
 # Derived analytical datasets
 data/*.rds
-data/*.csv
 
 # SAS temporary/output files
 *.log
