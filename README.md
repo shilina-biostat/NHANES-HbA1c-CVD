@@ -33,7 +33,7 @@ comparison.
 **Source**
 National Health and Nutrition Examination Survey (NHANES)
 Centers for Disease Control and Prevention (CDC)
-https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017
+https://www.cdc.gov/nchs/nhanes/
 
 Survey cycle: NHANES 2017–2018
 
@@ -134,7 +134,6 @@ NHANES-HbA1c-CVD
 └── README.md
 ```
 
----
 
 ## How to Reproduce
 
@@ -176,6 +175,10 @@ with raw `.xpt` files uploaded to the SAS server home directory
 | Smoking: Current (vs Never) | 2.25 | 1.70–2.97 | <0.001 |
 | Hypertension: Yes (vs No) | 2.10 | 1.64–2.70 | <0.001 |
 
+**Interpretation:** After adjustment for age, sex, BMI, smoking status,
+and hypertension, each 1% increase in HbA1c was associated with
+approximately 16% higher odds of cardiovascular disease.
+
 McFadden's pseudo-R² = 0.186
 
 ![Forest plot](figures/forest_plot.png)
@@ -205,15 +208,6 @@ Reference: HbA1c < 5.7% (Normal)
 |---|---|---|---|
 | 5.7–6.4% (Prediabetes) | 1.25 | 0.98–1.60 | 0.067 |
 | ≥6.5% (Diabetes) | 1.72 | 1.31–2.26 | <0.001 |
-
-
-| Hypertension: Yes (vs No) | 2.10 | 1.64–2.70 | <0.001 |
-
-**Interpretation:** After adjustment for age, sex, BMI, smoking status,
-and hypertension, each 1% increase in HbA1c was associated with
-approximately 16% higher odds of cardiovascular disease.
-
-McFadden's pseudo-R² = 0.186
 
 ![Sensitivity analysis forest plot](figures/sensitivity_hba1c_categorical.png)
 
@@ -303,4 +297,3 @@ each other line by line and refusing to accept "close enough."
 
 **Nadezhda Shilina**
 LinkedIn: https://www.linkedin.com/in/nadya-shilina
-
