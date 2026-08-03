@@ -1,5 +1,7 @@
 # NHANES HbA1c and Cardiovascular Disease
 
+This repository demonstrates a fully reproducible biostatistical workflow implemented independently in R and SAS, from raw NHANES XPT files to publication-ready tables and figures.
+
 ## Project Overview
 
 This project investigates the association between glycated hemoglobin
@@ -31,9 +33,12 @@ comparison.
 ## Dataset
 
 **Source**
-National Health and Nutrition Examination Survey (NHANES)
+
+National Health and Nutrition Examination Survey (NHANES),  
 Centers for Disease Control and Prevention (CDC)
+
 https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017
+
 
 Survey cycle: NHANES 2017–2018
 
@@ -56,9 +61,18 @@ is only excluded if both sources are missing.
 
 ## Study Population
 
-Adults aged **18 years or older** with complete information on:
-HbA1c, age, sex, race, BMI, smoking status, hypertension, and
-cardiovascular disease.
+Adults aged 18 years or older with complete information on:
+
+- HbA1c
+- age
+- sex
+- race/ethnicity
+- BMI
+- smoking status
+- hypertension
+- cardiovascular disease
+
+
 
 | Step | N |
 |---|---|
@@ -286,10 +300,31 @@ each other line by line and refusing to accept "close enough."
 ## Software
 
 ### R
-`haven`, `dplyr`, `ggplot2`, `pROC`
+
+R 4.5
+
+haven
+
+dplyr
+
+ggplot2
+
+pROC
 
 ### SAS
-`PROC SQL`, `PROC LOGISTIC`, `PROC FREQ`, `PROC MEANS`, `PROC SGPLOT`
+
+SAS OnDemand for Academics
+
+PROC SQL
+
+PROC LOGISTIC
+
+PROC FREQ
+
+PROC MEANS
+
+PROC SGPLOT
+
 
 ---
 
