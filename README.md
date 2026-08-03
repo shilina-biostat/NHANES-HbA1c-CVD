@@ -33,7 +33,7 @@ comparison.
 **Source**
 National Health and Nutrition Examination Survey (NHANES)
 Centers for Disease Control and Prevention (CDC)
-https://www.cdc.gov/nchs/nhanes/
+https://wwwn.cdc.gov/nchs/nhanes/continuousnhanes/default.aspx?BeginYear=2017
 
 Survey cycle: NHANES 2017–2018
 
